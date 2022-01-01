@@ -27,4 +27,4 @@ The repository contains the following files:
 
 ## Acknowledgements
 
-The state machines controlling the display are based on the work by benevpi for hub75: [PicoPythonHub75](https://github.com/benevpi/PicoPythonHub7
+The state machines controlling the display are based on the work by benevpi for hub75: [PicoPythonHub75](https://github.com/benevpi/PicoPythonHub7)
