@@ -3,7 +3,7 @@ Raspberry Pi Pico controlling a LED matrix RGB display with 1/8 refresh rate (S8
 
 ![RGB Matrix display.](https://github.com/anadyn/Pico_RGBmatrix_S8/blob/main/RGBdisplay_front.jpg)
 
-This repository contains MicroPython scripts for a Raspberry Pi Pico to display numbers on a LED Matrix RGB display. The scripts are written for two 24x48 displays in series with markings P5-48x24-2121RGB-8S-V1.0, i.e. in total 96 columns and 24 rows.
+This repository contains MicroPython scripts for a Raspberry Pi Pico to display numbers on a LED Matrix RGB display. The scripts are written for two 48x24 displays in series with markings P5-48x24-2121RGB-8S-V1.0, i.e. in total 96 columns and 24 rows.
 
 For an introduction on RGB Matrix panels I recommend this introduction (although you can skip the discussion of BCM and image planes, they are not applicable in this case):
 
