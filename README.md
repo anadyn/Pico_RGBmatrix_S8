@@ -23,7 +23,8 @@ The repository contains the following files:
 
 * `numbers_timer_RGBdisplay.py` - MicroPython script for Raspberry Pi Pico using an internal timer to show timestamps on the RGB Matrix display on the format "MM:SS.UU", where MM=minutes, SS=seconds and UU is 1/100 second. For example 01:03.45.
 * `numbers_serial_input_RGBdisplay.py` - as above, but the Raspberry Pi Pico reads timestamps from the serial port (UART).
-
+* `RGB display mapping.xlsx` - helper function: spreadsheet to define pixel font.
+* `create_RGBdisplay_font.py` - helper function: python script to generate pixel font.
 
 ## Acknowledgements
 
