@@ -11,13 +11,11 @@ For an introduction on RGB Matrix panels I recommend this introduction (although
 
 The protocol in this case is **not** hub75, but it works in a similar manner. Where hub75 writes and displays data for 1/16 or 1/32 of the rows at a time, here 1/8 of the rows are handled at the same time. This means that only three bits are needed to specify where the data is going. Furthermore, only one data channel is used instead of two that is used in hub75. 
 
-A complication is that the pixels are defined in a wonky order. Since the display has 24 rows this means that 3 rows are handled at the same time by the shift registers, see the row indices 0 to 7 in the figure below.
-
+A complication is that the pixels are defined in a wonky order. Since the display has 24 rows this means that 3 rows are handled at the same time by the shift registers, as indicated by the row indices 0 to 7 in the figure below. The display is in turn divided in 16 columns wide sections, where one section is populated at a time. The order of the pixels are indicated by the numbers 0 to 47 in the figure.
 
 ![Ordering of pixels.](https://github.com/anadyn/Pico_RGBmatrix_S8/blob/main/example_ordering_of_pixels.png)
 
 
 ## Acknowledgements
 
-The state machines controlling the display are based on the work by benevpi for hub75: [PicoPythonHub75](https://github.com/benevpi/PicoPythonHub75)
-
+The state machines controlling the display are based on the work by benevpi for hub75: [PicoPythonHub75](https://github.com/benevpi/PicoPythonHub7
